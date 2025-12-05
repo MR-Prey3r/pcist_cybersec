@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: whitesmoke;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(24, 23, 23);
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+nav a:hover{
+    background: rgb(65, 64, 64);
+}
+
+/* hero section */
+.hero{
+    background: white;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.hero-img img{
+    user-select: none;
+}
+
+/* contents */
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.search .input-grp{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.input-grp input[type="button"]{
+    border: none;
+    background: rgb(24, 23, 23);
+    color: white;
+    padding: 1rem 1rem;
+}
+.input-grp input[type="search"]{
+    width: 30vw;
+    font-size: medium;
+}
+
+
+
+/* cards */
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 5rem;
+}
+.cards .card{
+    height: 40vh;
+    width: 15vw;
+    flex-basis: calc(25% - 30px);
+    box-shadow: 0px 0px 5px 2px rgba(65, 64, 64, 0.288);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card-img{
+    height: 70%;
+    background: url("https://studying-in-spain.com/wp-content/uploads/2013/08/popular-courses-spain.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-texts{
+    padding: 1rem;
+    text-align: justify;
+}
