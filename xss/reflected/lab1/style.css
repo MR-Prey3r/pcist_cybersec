@@ -99,3 +99,28 @@ nav a:hover{
     padding: 1rem;
     text-align: justify;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        min-width: 80vw;
+        
+    }
+}
+
+
+
+
+
