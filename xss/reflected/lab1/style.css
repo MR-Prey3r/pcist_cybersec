@@ -111,7 +111,7 @@ nav a:hover{
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
+@media (max-width: 478px) {
     /* Styles for small screens */
     .cards{
         flex-direction: column;
