@@ -110,7 +110,9 @@ nav a:hover{
 
 
 
-@media screen and (max-width: 500px) {
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Styles for small screens */
     .cards{
         flex-direction: column;
     }
@@ -118,7 +120,22 @@ nav a:hover{
         min-width: 80vw;
         
     }
-}
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    /* Styles for medium screens */
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    /* Styles for large screens */
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* Styles for extra large screens */
+  }
 
 
 
